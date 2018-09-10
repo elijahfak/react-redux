@@ -1,4 +1,3 @@
-import Pessoa from './pessoa';
+const logger = require('./logger');
 
-const pessoa = new Pessoa("Elizeu");
-console.log(pessoa.toString());
+logger.info('Usando o padrão CommonsJS!');
